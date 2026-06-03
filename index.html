@@ -1,1 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroForte</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <header>
+        <nav>
+            <h1>🌱 AgroForte</h1>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#sustentabilidade">Sustentabilidade</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h2>Equilíbrio entre Sustentabilidade e Produção</h2>
+            <p>Produzir mais, preservando o futuro do planeta.</p>
+            <button onclick="mostrarMensagem()">Saiba Mais</button>
+        </div>
+    </section>
+
+    <section id="sobre" class="section">
+        <h2>Sobre o AgroForte</h2>
+        <p>
+            O AgroForte promove práticas agrícolas modernas que unem alta produtividade
+            com responsabilidade ambiental, garantindo desenvolvimento sustentável
+            para as futuras gerações.
+        </p>
+    </section>
+
+    <section id="sustentabilidade" class="section destaque">
+        <h2>Nossos Pilares</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>🌿 Preservação Ambiental</h3>
+                <p>Uso consciente dos recursos naturais e proteção da biodiversidade.</p>
+            </div>
+
+            <div class="card">
+                <h3>🚜 Tecnologia no Campo</h3>
+                <p>Inovação para aumentar a eficiência produtiva com menor impacto.</p>
+            </div>
+
+            <div class="card">
+                <h3>🌎 Produção Sustentável</h3>
+                <p>Equilíbrio entre crescimento econômico e responsabilidade social.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="section">
+        <h2>Fale Conosco</h2>
+        <form id="formContato">
+            <input type="text" placeholder="Seu nome" required>
+            <input type="email" placeholder="Seu e-mail" required>
+            <textarea placeholder="Sua mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2026 AgroForte - Sustentabilidade e Produção</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
